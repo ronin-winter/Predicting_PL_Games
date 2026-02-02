@@ -54,10 +54,10 @@ pip install pandas numpy scikit-learn requests plotly
 
 1. **Get an API Key:** Get a free key from [The Odds API](https://the-odds-api.com/).
 2. **Paste Key:** Add your key to the `main()` function in the script.
-3. **Run the Script:**
+3. **Run the Script Predicting_PL_Games:**
 
 ```bash
-python main.py
+python Predicting_PL_Games.py
 
 ```
 
