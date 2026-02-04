@@ -76,18 +76,22 @@ Enter Match Details:
 ```text
 PREDICTION: Manchester United vs Tottenham Hotspur
 =====================================================================================
-Home Win        | Model: 22.9% | Fair: 4.36  | Odds: 1.7   | EV: -61.0%
-Draw            | Model: 59.2% | Fair: 1.69  | Odds: 4.6   | EV: +172.3% <<< VALUE
-Away Win        | Model: 17.9% | Fair: 5.60  | Odds: 5.0   | EV: -10.7%
+Home Win        | Model: 36.3% | Fair: 2.75  | Odds: 1.7   | EV: -38.2%
+Draw            | Model: 30.0% | Fair: 3.33  | Odds: 4.6   | EV: +38.0% <<< VALUE
+Away Win        | Model: 33.7% | Fair: 2.97  | Odds: 5.0   | EV: +68.3% <<< VALUE
 -------------------------------------------------------------------------------------
-BTTS Yes        | Model: 48.9% | Fair: 2.04  | Odds: 1.62  | EV: -20.8%
+BTTS Yes        | Model: 68.8% | Fair: 1.45  | Odds: 1.62  | EV: +11.4% <<< VALUE
 -------------------------------------------------------------------------------------
-X2 (Away/Draw)  | Model: 77.1% | Fair: 1.30  | Odds: 2.2   | EV: +69.5% <<< VALUE
+Home DNB        | Model: 51.9% | Fair: 1.93  | Odds: 1.28  | EV: -33.6%
+Away DNB        | Model: 48.1% | Fair: 2.08  | Odds: 3.45  | EV: +65.9% <<< VALUE
+-------------------------------------------------------------------------------------
+1X (Home/Draw)  | Model: 66.3% | Fair: 1.51  | Odds: 1.22  | EV: -19.1%
+X2 (Away/Draw)  | Model: 63.7% | Fair: 1.57  | Odds: 2.2   | EV: +40.1% <<< VALUE
 
 --- MODEL REASONING ---
 1. FORM: Manchester United has better form (11 vs 3 pts).
-2. BOGEY TEAM: History favors Tottenham (H2H Score: -2).
--> The model detects that the Away team often gets results in this matchup.
+2. BOGEY TEAM: History favors Tottenham Hotspur (H2H Score: -2).
+   -> The model detects that the Away team often gets results in this matchup.
 3. STRENGTH RATING: Home (64.0) vs Away (32.0)
 
 ```
